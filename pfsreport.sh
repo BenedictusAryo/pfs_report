@@ -1,4 +1,6 @@
-#! bash
+#!/bin/bash
+
+# The Script is purposed to get PFS Report for Port Utilization and Total Error
 
 psql -U postgres -d pfsdb
 echo "365Pass"
